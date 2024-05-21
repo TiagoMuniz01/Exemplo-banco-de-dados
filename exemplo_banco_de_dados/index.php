@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h2>Cadastro</h2>
-        <form>
+        <form method="POST" action="controller/pessoaController.php">
             <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
@@ -42,6 +42,7 @@
                 <label for="nome">Celular:</label>
                 <input type="text" class="form-control" id="celular" placeholder="Digite o celular">
             </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
 
 </body>
