@@ -72,7 +72,6 @@ class Pessoa{
         $stmt = $this->conexao->getConexao()->prepare($sql);
         $stmt->bind_param("ssssssss", $this->nome, $this->endereco, $this->bairro, $this->cep, $this->cidade, $this->estado, $this->telefone, $this->celular);
         return $stmt->execute();
-
     }
 }
 

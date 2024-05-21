@@ -28,7 +28,7 @@
             </div>
             <div class="form-group">
                 <label for="nome">Cidade:</label>
-                <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
+                <input type="text" class="form-control" id="cidade" placeholder="Digite o nome">
             </div>
             <div class="form-group">
                 <label for="nome">Estado:</label>
