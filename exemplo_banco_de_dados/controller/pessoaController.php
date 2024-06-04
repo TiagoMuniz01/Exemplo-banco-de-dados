@@ -13,7 +13,7 @@ class PessoaController{
         $this->pessoa = new Pessoa();
         //Se a a variável ação contida na URL for igual a inserir*
         if($_GET['açao'] == 'inserir'){ 
-            $this->inserir(); // Executar ação de inserir dados desta classe*
+            $this->inserir(); // Executar ação de inserir dados desta classe
         }
     }
 
