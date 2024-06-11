@@ -11,7 +11,8 @@
         <h2>Cadastro</h2>
         <form>
             <div class="form-group">
-                <label for="nome">Nome:</label>
+                <label for="nome">Nome:</
+                label>
                 <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
             </div>
             <div class="form-group">

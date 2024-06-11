@@ -37,6 +37,10 @@ class PessoaController{
     public function listar(){
         return $this->pessoa->listar();
     }
+
+    public functiion atualizar(){
+
+    }
 }
 
 //instanciando a classe*

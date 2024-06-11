@@ -110,5 +110,9 @@ class Pessoa{
         // Retorna o vetor contendo todas as pessoas
         return $pessoas;
     }
+
+    public functiion atualizar(){
+
+    }
 }
 ?>
